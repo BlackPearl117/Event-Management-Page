@@ -1,0 +1,130 @@
+body {
+  background: linear-gradient(
+    135deg,
+    #f0f4f8,
+    #d9e4f5
+  ); /* Soft gradient background */
+  color: #333; /* Dark text for readability */
+  font-family: "Arial", sans-serif; /* Modern font */
+}
+
+.navbar {
+  background: linear-gradient(
+    90deg,
+    #6a11cb 0%,
+    #2575fc 100%
+  ); /* Gradient background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff; /* White text for navbar items */
+}
+
+.nav-link:hover {
+  color: #ffdd57; /* Light yellow on hover */
+}
+
+#calendar {
+  background-color: #ffffff; /* White background for the calendar */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+footer {
+  background: linear-gradient(
+    90deg,
+    #6a11cb 0%,
+    #2575fc 100%
+  ); /* Match footer with navbar */
+  color: #ffffff; /* White text for footer */
+  padding: 20px 0;
+}
+
+footer a {
+  color: #ffdd57; /* Light yellow for footer links */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.event-item {
+  border: 1px solid #6a11cb; /* Purple border for event items */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #e9ecef; /* Light grey background for event items */
+  transition: transform 0.2s, box-shadow 0.2s; /* Animation */
+}
+
+.event-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  background-color: #d1e7dd; /* Light green background on hover */
+}
+
+#upcoming-events {
+  max-height: 400px; /* Set a maximum height */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  padding: 10px; /* Optional: Add some padding */
+
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+#upcoming-events::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+#upcoming-events {
+  scrollbar-width: none; /* Hide scrollbar */
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background: linear-gradient(
+    90deg,
+    #6a11cb 0%,
+    #2575fc 100%
+  ); /* Gradient header for modal */
+  color: #ffffff; /* White text for modal header */
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.btn-primary {
+  background: linear-gradient(
+    90deg,
+    #6a11cb 0%,
+    #2575fc 100%
+  ); /* Gradient for primary buttons */
+  border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+  background: linear-gradient(
+    90deg,
+    #2575fc 0%,
+    #6a11cb 100%
+  ); /* Reverse gradient on hover */
+}
+
+.btn-outline-primary {
+  color: #6a11cb; /* Purple text for outline buttons */
+  border-color: #6a11cb; /* Purple border for outline buttons */
+}
+
+.btn-outline-primary:hover {
+  background-color: #6a11cb; /* Purple background on hover */
+  color: #ffffff; /* White text on hover */
+}
