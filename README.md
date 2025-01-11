@@ -30,7 +30,7 @@ Installation
 2.Navigate to the project directory:
 
 ```bash
-cd event-management
+cd Event-Management-Page
 ```
 
 3.Open index.html in your web browser to view the application.
